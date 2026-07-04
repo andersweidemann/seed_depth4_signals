@@ -1,77 +1,69 @@
 //@version=6
-indicator("Depth4 Macro Signals: Direction & Cause Overlay", overlay=true, max_labels_count=500)
+indicator("Macro Thesis Fleet: Direction & Cause Overlay", overlay=true, max_labels_count=500)
 
-// DEPTH4 — macro intelligence upstream of your chart.
-// Lite overlay: direction, room, cause one-liner, link to full cascade at depth4.com
-// Data is baked in at publish time — regenerate via DEPTH4 publish script or cron.
+// Multi-thesis macro overlay: direction, room-to-run, fleet lean, and top cause one-liner.
+// Feed is embedded at publish time (static snapshot) — republish to refresh mapped symbols.
 
-// Generated: 2026-07-04T08:15:43.979Z
+// Generated: 2026-07-04T12:15:54.014Z
 // Entries: 26
-// Origin: https://www.depth4.com
 
-var string[] DEPTH4_TV_KEYS = array.from("BINANCE:BTCUSDT", "OANDA:XAUUSD", "OANDA:XAGUSD", "NASDAQ:NVDA", "NASDAQ:MSFT", "NASDAQ:META", "NASDAQ:GOOGL", "NASDAQ:AMZN", "AMEX:SPY", "NASDAQ:QQQ", "AMEX:IWM", "AMEX:GLD", "COMEX:GC1!", "AMEX:XLE", "AMEX:GDX", "NASDAQ:TLT", "OANDA:EURUSD", "OANDA:USDJPY", "AMEX:KIE", "NASDAQ:SHY", "NASDAQ:RGLD", "AMEX:UST", "AMEX:NUGT", "AMEX:XLRE", "NYSE:AEM", "AMEX:VNQ")
-var string[] DEPTH4_SYMBOLS = array.from("BTC", "XAUUSD", "XAGUSD", "NVDA", "MSFT", "META", "GOOGL", "AMZN", "SPY", "QQQ", "IWM", "GLD", "GC", "XLE", "GDX", "TLT", "EURUSD", "USDJPY", "KIE", "SHY", "RGLD", "UST", "NUGT", "XLRE", "AEM", "VNQ")
-var int[] DEPTH4_DIR = array.from(0, 0, -1, -1, -1, -1, -1, -1, 0, 0, -1, 0, 0, 0, 0, 0, 0, 1, 1, -1, -1, -1, -1, -1, -1, 1)
-var float[] DEPTH4_ROOM = array.from(31.00, 23.00, 28.00, 22.00, 16.00, 27.00, 17.00, 13.00, 21.00, 20.00, 26.00, 23.00, 23.00, 23.00, 27.00, 26.00, 24.00, 22.00, 31.00, 27.00, 25.00, 67.00, 35.00, 30.00, 28.00, 28.00)
-var string[] DEPTH4_ROOM_BAND = array.from("Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Tight", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Significant", "Significant", "Moderate", "Moderate", "Moderate")
-var string[] DEPTH4_STRENGTH = array.from("Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Flagged — Building", "Flagged — Clear signal", "Building", "Flagged — Clear signal", "Building", "Clear signal", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Flagged — Building", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Flagged — Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal")
-var string[] DEPTH4_CAUSE = array.from("If state PUCs keep fast-tracking datacenter interconnection over crypto load,…", "Tail risk is lower than the last two years,…", "HG.1 crashes as CTA funds mechanically dump copper length on ISM below 48.5;…", "long-term Treasuries, EURUSD — Defense tech rerates as AI safety politicizes.…", "Crude oil slides as demand forecasts are trimmed;…", "META, GOOGL, NVDA — Meta and Google earnings soft-capex language hits semis and hyperscalers first.", "META, GOOGL, NVDA — Meta and Google earnings soft-capex language hits semis and hyperscalers first.", "US stocks, NVDA — AI capex shock hits headlines: MSFT, AMZN,…", "IWM rises on the direct D1→D2 channel.", "IWM rises on the direct D1→D2 channel.", "IWM, copper, energy stocks — Small-cap industrials catch up; copper demand from rearmament electrification sp…", "Tail risk is lower than the last two years,…", "Tail risk is lower than the last two years,…", "IWM, copper, energy stocks — Small-cap industrials catch up; copper demand from rearmament electrification sp…", "NUGT, XME — Miners get crushed as CTA models flip short", "intermediate bonds, dollar, EURUSD — Trend funds cover Treasury shorts,…", "Long bonds breathe as gold pivots to inflation hedge. Euro reprices energy-tax drag. Defense rerates.", "Gold rotates from war hedge to Fed-hedge. Pension cash cuts from 18% to 12% favor…", "If Trump's deregulation keeps rolling through H2 2026,…", "US stocks, Gold — long-term Treasuries, intermediate bonds, SHY —…", "Junior miners drop harder; copper producers feel the same cost squeeze;…", "TLT falls — UST falls — JGB rises —…", "NUGT, XME — Miners get crushed as CTA models flip short", "NEM, silver, XLRE — CTA gold stops trigger, GDX futures forced selling hits miners", "Streaming royalty names look safer but still reprice lower;…", "Wheat, cocoa, cotton face retaliatory tariffs. LNG export competitiveness erodes.…")
-var string[] DEPTH4_URL = array.from("https://www.depth4.com/?asset=BTC", "https://www.depth4.com/?asset=XAUUSD", "https://www.depth4.com/?asset=XAGUSD", "https://www.depth4.com/?asset=NVDA", "https://www.depth4.com/?asset=MSFT", "https://www.depth4.com/?asset=META", "https://www.depth4.com/?asset=GOOGL", "https://www.depth4.com/?asset=AMZN", "https://www.depth4.com/?asset=SPY", "https://www.depth4.com/?asset=QQQ", "https://www.depth4.com/?asset=IWM", "https://www.depth4.com/?asset=XAUUSD", "https://www.depth4.com/?asset=XAUUSD", "https://www.depth4.com/?asset=XLE", "https://www.depth4.com/?asset=GDX", "https://www.depth4.com/?asset=TLT", "https://www.depth4.com/?asset=EURUSD", "https://www.depth4.com/?asset=USDJPY", "https://www.depth4.com/?asset=KIE", "https://www.depth4.com/?asset=SHY", "https://www.depth4.com/?asset=RGLD", "https://www.depth4.com/?asset=UST", "https://www.depth4.com/?asset=NUGT", "https://www.depth4.com/?asset=XLRE", "https://www.depth4.com/?asset=AEM", "https://www.depth4.com/?asset=VNQ")
-var string[] DEPTH4_NAME = array.from("Bitcoin", "Gold Spot", "Silver Spot", "Nvidia", "Microsoft", "Meta Platforms", "Alphabet", "Amazon", "S&P 500", "Nasdaq 100", "Russell 2000", "Gold Spot", "Gold Spot", "Energy Select Sector", "Gold Miners ETF", "20+ Year Treasuries", "Euro / US Dollar", "US Dollar / Japanese Yen", "Insurance ETF", "1–3 Year Treasuries", "Royal Gold", "Ultra 7–10Y Treasury ETF", "Direxion Gold Miners Bull 2X", "Real Estate sector", "Agnico Eagle Mines", "REIT ETF")
-var string[] DEPTH4_LEAN = array.from("25 thesises lean up · 26 lean down · 2 neutral", "103 thesises lean up · 86 lean down · 17 neutral", "", "", "", "", "", "", "43 thesises lean up · 54 lean down · 18 neutral", "26 thesises lean up · 28 lean down · 7 neutral", "", "103 thesises lean up · 86 lean down · 17 neutral", "103 thesises lean up · 86 lean down · 17 neutral", "77 thesises lean up · 88 lean down · 6 neutral", "76 thesises lean up · 82 lean down · 6 neutral", "118 thesises lean up · 90 lean down · 19 neutral", "48 thesises lean up · 50 lean down · 11 neutral", "", "", "", "", "", "", "", "", "")
+var string[] MACRO_TV_KEYS = array.from("BINANCE:BTCUSDT", "OANDA:XAUUSD", "OANDA:XAGUSD", "NASDAQ:NVDA", "NASDAQ:MSFT", "NASDAQ:META", "NASDAQ:GOOGL", "NASDAQ:AMZN", "AMEX:SPY", "NASDAQ:QQQ", "AMEX:IWM", "AMEX:GLD", "COMEX:GC1!", "AMEX:XLE", "AMEX:GDX", "NASDAQ:TLT", "OANDA:EURUSD", "OANDA:USDJPY", "AMEX:KIE", "NASDAQ:SHY", "NASDAQ:RGLD", "AMEX:UST", "AMEX:NUGT", "AMEX:XLRE", "NYSE:AEM", "AMEX:VNQ")
+var string[] MACRO_SYMBOLS = array.from("BTC", "XAUUSD", "XAGUSD", "NVDA", "MSFT", "META", "GOOGL", "AMZN", "SPY", "QQQ", "IWM", "GLD", "GC", "XLE", "GDX", "TLT", "EURUSD", "USDJPY", "KIE", "SHY", "RGLD", "UST", "NUGT", "XLRE", "AEM", "VNQ")
+var int[] MACRO_DIR = array.from(0, 0, -1, -1, -1, -1, -1, -1, 0, 0, -1, 0, 0, 0, 0, 0, 0, 1, 1, -1, -1, -1, -1, -1, -1, 1)
+var float[] MACRO_ROOM = array.from(31.00, 23.00, 28.00, 22.00, 16.00, 27.00, 17.00, 13.00, 21.00, 20.00, 26.00, 23.00, 23.00, 23.00, 27.00, 26.00, 24.00, 22.00, 31.00, 27.00, 25.00, 67.00, 35.00, 30.00, 28.00, 28.00)
+var string[] MACRO_ROOM_BAND = array.from("Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Tight", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Moderate", "Significant", "Significant", "Moderate", "Moderate", "Moderate")
+var string[] MACRO_STRENGTH = array.from("Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Flagged — Building", "Flagged — Clear signal", "Building", "Flagged — Clear signal", "Building", "Clear signal", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Flagged — Building", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Mixed fleet — Mixed picture", "Flagged — Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal", "Clear signal")
+var string[] MACRO_CAUSE = array.from("If state PUCs keep fast-tracking datacenter interconnection over crypto load,…", "Tail risk is lower than the last two years,…", "HG.1 crashes as CTA funds mechanically dump copper length on ISM below 48.5;…", "long-term Treasuries, EURUSD — Defense tech rerates as AI safety politicizes.…", "Crude oil slides as demand forecasts are trimmed;…", "META, GOOGL, NVDA — Meta and Google earnings soft-capex language hits semis and hyperscalers first.", "META, GOOGL, NVDA — Meta and Google earnings soft-capex language hits semis and hyperscalers first.", "US stocks, NVDA — AI capex shock hits headlines: MSFT, AMZN,…", "IWM rises on the direct D1→D2 channel.", "IWM rises on the direct D1→D2 channel.", "IWM, copper, energy stocks — Small-cap industrials catch up; copper demand from rearmament electrification sp…", "Tail risk is lower than the last two years,…", "Tail risk is lower than the last two years,…", "IWM, copper, energy stocks — Small-cap industrials catch up; copper demand from rearmament electrification sp…", "NUGT, XME — Miners get crushed as CTA models flip short", "intermediate bonds, dollar, EURUSD — Trend funds cover Treasury shorts,…", "Long bonds breathe as gold pivots to inflation hedge. Euro reprices energy-tax drag. Defense rerates.", "Gold rotates from war hedge to Fed-hedge. Pension cash cuts from 18% to 12% favor…", "If Trump's deregulation keeps rolling through H2 2026,…", "US stocks, Gold — long-term Treasuries, intermediate bonds, SHY —…", "Junior miners drop harder; copper producers feel the same cost squeeze;…", "TLT falls — UST falls — JGB rises —…", "NUGT, XME — Miners get crushed as CTA models flip short", "NEM, silver, XLRE — CTA gold stops trigger, GDX futures forced selling hits miners", "Streaming royalty names look safer but still reprice lower;…", "Wheat, cocoa, cotton face retaliatory tariffs. LNG export competitiveness erodes.…")
+var string[] MACRO_NAME = array.from("Bitcoin", "Gold Spot", "Silver Spot", "Nvidia", "Microsoft", "Meta Platforms", "Alphabet", "Amazon", "S&P 500", "Nasdaq 100", "Russell 2000", "Gold Spot", "Gold Spot", "Energy Select Sector", "Gold Miners ETF", "20+ Year Treasuries", "Euro / US Dollar", "US Dollar / Japanese Yen", "Insurance ETF", "1–3 Year Treasuries", "Royal Gold", "Ultra 7–10Y Treasury ETF", "Direxion Gold Miners Bull 2X", "Real Estate sector", "Agnico Eagle Mines", "REIT ETF")
+var string[] MACRO_LEAN = array.from("25 thesises lean up · 26 lean down · 2 neutral", "103 thesises lean up · 86 lean down · 17 neutral", "", "", "", "", "", "", "43 thesises lean up · 54 lean down · 18 neutral", "26 thesises lean up · 28 lean down · 7 neutral", "", "103 thesises lean up · 86 lean down · 17 neutral", "103 thesises lean up · 86 lean down · 17 neutral", "77 thesises lean up · 88 lean down · 6 neutral", "76 thesises lean up · 82 lean down · 6 neutral", "118 thesises lean up · 90 lean down · 19 neutral", "48 thesises lean up · 50 lean down · 11 neutral", "", "", "", "", "", "", "", "", "")
 
-f_depth4_key_candidates() =>
+f_macro_key_candidates() =>
     array.from(
       syminfo.tickerid,
       syminfo.prefix + ":" + syminfo.ticker,
       syminfo.ticker
     )
 
-f_depth4_find_index() =>
-    keys = f_depth4_key_candidates()
+f_macro_find_index() =>
+    keys = f_macro_key_candidates()
     found = -1
     for ki = 0 to array.size(keys) - 1
         key = str.upper(array.get(keys, ki))
-        for i = 0 to array.size(DEPTH4_TV_KEYS) - 1
-            if key == array.get(DEPTH4_TV_KEYS, i)
+        for i = 0 to array.size(MACRO_TV_KEYS) - 1
+            if key == array.get(MACRO_TV_KEYS, i)
                 found := i
                 break
-            if key == array.get(DEPTH4_SYMBOLS, i)
+            if key == array.get(MACRO_SYMBOLS, i)
                 found := i
                 break
         if found >= 0
             break
     found
 
-f_depth4_dir_label(code) =>
+f_macro_dir_label(code) =>
     code > 0 ? "LONG" : code < 0 ? "SHORT" : "MIXED"
 
-f_depth4_dir_color(code) =>
+f_macro_dir_color(code) =>
     code > 0 ? color.new(#22c55e, 0) : code < 0 ? color.new(#ef4444, 0) : color.new(#f59e0b, 0)
 
-var table depth4Panel = table.new(position.top_right, 1, 8, bgcolor=color.new(#111110, 10), border_width=1, border_color=color.new(#E8473F, 40))
+var table macroPanel = table.new(position.top_right, 1, 6, bgcolor=color.new(#111110, 10), border_width=1, border_color=color.new(#888888, 40))
 
 if barstate.islast
-    idx = f_depth4_find_index()
-    table.cell(depth4Panel, 0, 0, "DEPTH4 Macro Signal", text_color=color.new(#E8473F, 0), text_size=size.small)
+    idx = f_macro_find_index()
+    table.cell(macroPanel, 0, 0, "Macro thesis fleet", text_color=color.white, text_size=size.small)
     if idx < 0
-        table.cell(depth4Panel, 0, 1, "No mapped macro signal for this chart symbol.", text_color=color.new(#888888, 0), text_size=size.tiny)
-        table.cell(depth4Panel, 0, 2, "Browse live SIGNALS:", text_color=color.new(#888888, 0), text_size=size.tiny)
-        table.cell(depth4Panel, 0, 3, "https://www.depth4.com", text_color=color.new(#ffffff, 0), text_size=size.tiny)
+        table.cell(macroPanel, 0, 1, "No feed entry for this chart symbol.", text_color=color.new(#888888, 0), text_size=size.tiny)
+        table.cell(macroPanel, 0, 2, str.tostring(array.size(MACRO_TV_KEYS)) + " symbols mapped in this release.", text_color=color.new(#888888, 0), text_size=size.tiny)
     else
-        dirCode = array.get(DEPTH4_DIR, idx)
-        room = array.get(DEPTH4_ROOM, idx)
-        table.cell(depth4Panel, 0, 1, array.get(DEPTH4_NAME, idx), text_color=color.white, text_size=size.small)
-        table.cell(depth4Panel, 0, 2, f_depth4_dir_label(dirCode) + " · " + str.tostring(room, "#") + "% room · " + array.get(DEPTH4_ROOM_BAND, idx), text_color=f_depth4_dir_color(dirCode), text_size=size.tiny)
-        table.cell(depth4Panel, 0, 3, array.get(DEPTH4_STRENGTH, idx), text_color=color.new(#888888, 0), text_size=size.tiny)
-        leanText = array.get(DEPTH4_LEAN, idx)
+        dirCode = array.get(MACRO_DIR, idx)
+        room = array.get(MACRO_ROOM, idx)
+        table.cell(macroPanel, 0, 1, array.get(MACRO_NAME, idx), text_color=color.white, text_size=size.small)
+        table.cell(macroPanel, 0, 2, f_macro_dir_label(dirCode) + " · " + str.tostring(room, "#") + "% room · " + array.get(MACRO_ROOM_BAND, idx), text_color=f_macro_dir_color(dirCode), text_size=size.tiny)
+        table.cell(macroPanel, 0, 3, array.get(MACRO_STRENGTH, idx), text_color=color.new(#888888, 0), text_size=size.tiny)
+        leanText = array.get(MACRO_LEAN, idx)
         if str.length(leanText) > 0
-            table.cell(depth4Panel, 0, 4, leanText, text_color=color.new(#888888, 0), text_size=size.tiny)
-            table.cell(depth4Panel, 0, 5, array.get(DEPTH4_CAUSE, idx), text_color=color.new(#ffffff, 0), text_size=size.tiny)
-            table.cell(depth4Panel, 0, 6, "Full cascade →", text_color=color.new(#888888, 0), text_size=size.tiny)
-            table.cell(depth4Panel, 0, 7, array.get(DEPTH4_URL, idx), text_color=color.new(#E8473F, 0), text_size=size.tiny)
+            table.cell(macroPanel, 0, 4, leanText, text_color=color.new(#888888, 0), text_size=size.tiny)
+            table.cell(macroPanel, 0, 5, array.get(MACRO_CAUSE, idx), text_color=color.new(#ffffff, 0), text_size=size.tiny)
         else
-            table.cell(depth4Panel, 0, 4, array.get(DEPTH4_CAUSE, idx), text_color=color.new(#ffffff, 0), text_size=size.tiny)
-            table.cell(depth4Panel, 0, 5, "Full cascade →", text_color=color.new(#888888, 0), text_size=size.tiny)
-            table.cell(depth4Panel, 0, 6, array.get(DEPTH4_URL, idx), text_color=color.new(#E8473F, 0), text_size=size.tiny)
-            table.cell(depth4Panel, 0, 7, "", text_color=color.new(#111110, 0), text_size=size.tiny)
+            table.cell(macroPanel, 0, 4, array.get(MACRO_CAUSE, idx), text_color=color.new(#ffffff, 0), text_size=size.tiny)
+            table.cell(macroPanel, 0, 5, "", text_color=color.new(#111110, 0), text_size=size.tiny)
