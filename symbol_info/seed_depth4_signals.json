@@ -46,12 +46,16 @@
     "UST_DIR",
     "NUGT_ROOM",
     "NUGT_DIR",
+    "VALE_ROOM",
+    "VALE_DIR",
+    "TECK_ROOM",
+    "TECK_DIR",
+    "XAR_ROOM",
+    "XAR_DIR",
     "XLRE_ROOM",
     "XLRE_DIR",
     "AEM_ROOM",
-    "AEM_DIR",
-    "VNQ_ROOM",
-    "VNQ_DIR"
+    "AEM_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -101,11 +105,15 @@
     "Ultra 7–10Y Treasury ETF direction code (SHORT)",
     "Direxion Gold Miners Bull 2X unpriced room %",
     "Direxion Gold Miners Bull 2X direction code (SHORT)",
+    "Vale S.A. unpriced room %",
+    "Vale S.A. direction code (LONG)",
+    "Teck Resources unpriced room %",
+    "Teck Resources direction code (LONG)",
+    "Aerospace & Defense unpriced room %",
+    "Aerospace & Defense direction code (LONG)",
     "Real Estate sector unpriced room %",
     "Real Estate sector direction code (SHORT)",
     "Agnico Eagle Mines unpriced room %",
-    "Agnico Eagle Mines direction code (SHORT)",
-    "REIT ETF unpriced room %",
-    "REIT ETF direction code (LONG)"
+    "Agnico Eagle Mines direction code (SHORT)"
   ]
 }
