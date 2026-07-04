@@ -5,7 +5,7 @@ indicator("Depth4 Macro Signals: Direction & Cause Overlay", overlay=true, max_l
 // Lite overlay: direction, room, cause one-liner, link to full cascade at depth4.com
 // Data is baked in at publish time — regenerate via DEPTH4 publish script or cron.
 
-// Generated: 2026-07-04T00:15:43.953Z
+// Generated: 2026-07-04T04:15:43.489Z
 // Entries: 26
 // Origin: https://www.depth4.com
 
