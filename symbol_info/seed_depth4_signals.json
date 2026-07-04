@@ -52,8 +52,6 @@
     "TECK_DIR",
     "XAR_ROOM",
     "XAR_DIR",
-    "XLRE_ROOM",
-    "XLRE_DIR",
     "AEM_ROOM",
     "AEM_DIR"
   ],
@@ -111,8 +109,6 @@
     "Teck Resources direction code (LONG)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
-    "Real Estate sector unpriced room %",
-    "Real Estate sector direction code (SHORT)",
     "Agnico Eagle Mines unpriced room %",
     "Agnico Eagle Mines direction code (SHORT)"
   ]
