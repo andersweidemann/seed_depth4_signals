@@ -66,8 +66,6 @@
     "XLRE_DIR",
     "AEM_ROOM",
     "AEM_DIR",
-    "RCMP_ROOM",
-    "RCMP_DIR",
     "VNQ_ROOM",
     "VNQ_DIR"
   ],
@@ -139,8 +137,6 @@
     "Real Estate sector direction code (SHORT)",
     "Agnico Eagle Mines unpriced room %",
     "Agnico Eagle Mines direction code (SHORT)",
-    "RCMP unpriced room %",
-    "RCMP direction code (SHORT)",
     "REIT ETF unpriced room %",
     "REIT ETF direction code (LONG)"
   ]
