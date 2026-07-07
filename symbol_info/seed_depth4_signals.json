@@ -50,6 +50,10 @@
     "VIX_DIR",
     "XAR_ROOM",
     "XAR_DIR",
+    "FFA_ROOM",
+    "FFA_DIR",
+    "BDIY_ROOM",
+    "BDIY_DIR",
     "ZC_ROOM",
     "ZC_DIR"
   ],
@@ -105,6 +109,10 @@
     "CBOE Volatility Index direction code (LONG)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
+    "FFA unpriced room %",
+    "FFA direction code (LONG)",
+    "BDIY unpriced room %",
+    "BDIY direction code (LONG)",
     "Corn unpriced room %",
     "Corn direction code (SHORT)"
   ]
