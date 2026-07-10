@@ -47,16 +47,14 @@
     "VIX_ROOM",
     "VIX_DIR",
     "USDNOK_ROOM",
-    "USDNOK_DIR",
-    "VNQ_ROOM",
-    "VNQ_DIR"
+    "USDNOK_DIR"
   ],
   "pricescale": 100,
   "description": [
     "Bitcoin unpriced room %",
     "Bitcoin direction code (LONG)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (LONG)",
+    "Gold Spot direction code (MIXED)",
     "Silver Spot unpriced room %",
     "Silver Spot direction code (SHORT)",
     "Meta Platforms unpriced room %",
@@ -70,9 +68,9 @@
     "Russell 2000 unpriced room %",
     "Russell 2000 direction code (SHORT)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (LONG)",
+    "Gold Spot direction code (MIXED)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (LONG)",
+    "Gold Spot direction code (MIXED)",
     "Energy Select Sector unpriced room %",
     "Energy Select Sector direction code (LONG)",
     "Gold Miners ETF unpriced room %",
@@ -100,8 +98,6 @@
     "CBOE Volatility Index unpriced room %",
     "CBOE Volatility Index direction code (SHORT)",
     "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)",
-    "REIT ETF unpriced room %",
-    "REIT ETF direction code (LONG)"
+    "US Dollar / Norwegian Krone direction code (LONG)"
   ]
 }
