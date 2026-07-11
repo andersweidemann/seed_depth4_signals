@@ -37,7 +37,9 @@
     "BDRY_ROOM",
     "BDRY_DIR",
     "VIX_ROOM",
-    "VIX_DIR"
+    "VIX_DIR",
+    "USDNOK_ROOM",
+    "USDNOK_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -78,6 +80,8 @@
     "Dry bulk shipping unpriced room %",
     "Dry bulk shipping direction code (LONG)",
     "CBOE Volatility Index unpriced room %",
-    "CBOE Volatility Index direction code (SHORT)"
+    "CBOE Volatility Index direction code (SHORT)",
+    "US Dollar / Norwegian Krone unpriced room %",
+    "US Dollar / Norwegian Krone direction code (LONG)"
   ]
 }
