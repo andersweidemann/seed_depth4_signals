@@ -38,6 +38,12 @@
     "FFA_DIR",
     "BDIY_ROOM",
     "BDIY_DIR",
+    "VALE_ROOM",
+    "VALE_DIR",
+    "SCCO_ROOM",
+    "SCCO_DIR",
+    "TECK_ROOM",
+    "TECK_DIR",
     "USDNOK_ROOM",
     "USDNOK_DIR"
   ],
@@ -81,6 +87,12 @@
     "FFA direction code (LONG)",
     "BDIY unpriced room %",
     "BDIY direction code (LONG)",
+    "Vale S.A. unpriced room %",
+    "Vale S.A. direction code (LONG)",
+    "Southern Copper unpriced room %",
+    "Southern Copper direction code (LONG)",
+    "Teck Resources unpriced room %",
+    "Teck Resources direction code (LONG)",
     "US Dollar / Norwegian Krone unpriced room %",
     "US Dollar / Norwegian Krone direction code (LONG)"
   ]
