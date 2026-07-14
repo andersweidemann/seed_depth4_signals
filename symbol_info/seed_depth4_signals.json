@@ -51,7 +51,9 @@
     "AUDUSD_ROOM",
     "AUDUSD_DIR",
     "USDNOK_ROOM",
-    "USDNOK_DIR"
+    "USDNOK_DIR",
+    "ITB_ROOM",
+    "ITB_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -62,7 +64,7 @@
     "Silver Spot unpriced room %",
     "Silver Spot direction code (SHORT)",
     "S&P 500 unpriced room %",
-    "S&P 500 direction code (MIXED)",
+    "S&P 500 direction code (SHORT)",
     "Nasdaq 100 unpriced room %",
     "Nasdaq 100 direction code (MIXED)",
     "Russell 2000 unpriced room %",
@@ -106,6 +108,8 @@
     "Australian Dollar / US Dollar unpriced room %",
     "Australian Dollar / US Dollar direction code (SHORT)",
     "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)"
+    "US Dollar / Norwegian Krone direction code (LONG)",
+    "Home construction ETF unpriced room %",
+    "Home construction ETF direction code (SHORT)"
   ]
 }
