@@ -38,8 +38,6 @@
     "BDRY_DIR",
     "EEM_ROOM",
     "EEM_DIR",
-    "EURJPY_ROOM",
-    "EURJPY_DIR",
     "NUGT_ROOM",
     "NUGT_DIR",
     "VALE_ROOM",
@@ -48,8 +46,6 @@
     "SCCO_DIR",
     "TECK_ROOM",
     "TECK_DIR",
-    "USDCAD_ROOM",
-    "USDCAD_DIR",
     "XHB_ROOM",
     "XHB_DIR",
     "BHP_ROOM",
@@ -57,9 +53,7 @@
     "SCHP_ROOM",
     "SCHP_DIR",
     "AUDUSD_ROOM",
-    "AUDUSD_DIR",
-    "USDNOK_ROOM",
-    "USDNOK_DIR"
+    "AUDUSD_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -101,8 +95,6 @@
     "Dry bulk shipping direction code (LONG)",
     "Emerging Markets unpriced room %",
     "Emerging Markets direction code (SHORT)",
-    "Euro / Japanese Yen unpriced room %",
-    "Euro / Japanese Yen direction code (SHORT)",
     "Direxion Gold Miners Bull 2X unpriced room %",
     "Direxion Gold Miners Bull 2X direction code (SHORT)",
     "Vale S.A. unpriced room %",
@@ -111,8 +103,6 @@
     "Southern Copper direction code (LONG)",
     "Teck Resources unpriced room %",
     "Teck Resources direction code (LONG)",
-    "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)",
     "SPDR S&P Homebuilders ETF unpriced room %",
     "SPDR S&P Homebuilders ETF direction code (SHORT)",
     "BHP Group unpriced room %",
@@ -120,8 +110,6 @@
     "Schwab U.S. TIPS ETF unpriced room %",
     "Schwab U.S. TIPS ETF direction code (LONG)",
     "Australian Dollar / US Dollar unpriced room %",
-    "Australian Dollar / US Dollar direction code (SHORT)",
-    "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)"
+    "Australian Dollar / US Dollar direction code (SHORT)"
   ]
 }
