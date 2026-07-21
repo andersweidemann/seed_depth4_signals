@@ -36,12 +36,16 @@
     "XLK_DIR",
     "ASML_ROOM",
     "ASML_DIR",
+    "USDCAD_ROOM",
+    "USDCAD_DIR",
     "FRO_ROOM",
     "FRO_DIR",
     "DFEN_ROOM",
     "DFEN_DIR",
     "WEAT_ROOM",
-    "WEAT_DIR"
+    "WEAT_DIR",
+    "USDNOK_ROOM",
+    "USDNOK_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -81,11 +85,15 @@
     "Technology sector direction code (LONG)",
     "ASML Holding unpriced room %",
     "ASML Holding direction code (LONG)",
+    "US Dollar / Canadian Dollar unpriced room %",
+    "US Dollar / Canadian Dollar direction code (SHORT)",
     "Frontline unpriced room %",
     "Frontline direction code (LONG)",
     "Defense & aerospace unpriced room %",
     "Defense & aerospace direction code (LONG)",
     "Teucrium Wheat Fund unpriced room %",
-    "Teucrium Wheat Fund direction code (LONG)"
+    "Teucrium Wheat Fund direction code (LONG)",
+    "US Dollar / Norwegian Krone unpriced room %",
+    "US Dollar / Norwegian Krone direction code (LONG)"
   ]
 }
