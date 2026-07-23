@@ -34,16 +34,12 @@
     "KRE_DIR",
     "KIE_ROOM",
     "KIE_DIR",
-    "EEM_ROOM",
-    "EEM_DIR",
     "GBPJPY_ROOM",
     "GBPJPY_DIR",
+    "SMFG_ROOM",
+    "SMFG_DIR",
     "XLRE_ROOM",
-    "XLRE_DIR",
-    "USDCAD_ROOM",
-    "USDCAD_DIR",
-    "USDNOK_ROOM",
-    "USDNOK_DIR"
+    "XLRE_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -72,7 +68,7 @@
     "Euro / US Dollar unpriced room %",
     "Euro / US Dollar direction code (MIXED)",
     "US Dollar / Japanese Yen unpriced room %",
-    "US Dollar / Japanese Yen direction code (LONG)",
+    "US Dollar / Japanese Yen direction code (MIXED)",
     "Dry bulk shipping unpriced room %",
     "Dry bulk shipping direction code (LONG)",
     "Natural Gas unpriced room %",
@@ -81,15 +77,11 @@
     "Regional banks ETF direction code (SHORT)",
     "Insurance ETF unpriced room %",
     "Insurance ETF direction code (LONG)",
-    "Emerging Markets unpriced room %",
-    "Emerging Markets direction code (SHORT)",
     "British Pound / Japanese Yen unpriced room %",
     "British Pound / Japanese Yen direction code (SHORT)",
+    "SMFG unpriced room %",
+    "SMFG direction code (SHORT)",
     "Real Estate sector unpriced room %",
-    "Real Estate sector direction code (SHORT)",
-    "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)",
-    "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)"
+    "Real Estate sector direction code (SHORT)"
   ]
 }
