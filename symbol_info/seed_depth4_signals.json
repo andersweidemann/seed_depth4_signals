@@ -34,14 +34,14 @@
     "USDCAD_DIR",
     "SMFG_ROOM",
     "SMFG_DIR",
-    "USDNOK_ROOM",
-    "USDNOK_DIR",
     "BHP_ROOM",
     "BHP_DIR",
     "SCHP_ROOM",
     "SCHP_DIR",
     "AUDUSD_ROOM",
-    "AUDUSD_DIR"
+    "AUDUSD_DIR",
+    "USDNOK_ROOM",
+    "USDNOK_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -79,13 +79,13 @@
     "US Dollar / Canadian Dollar direction code (SHORT)",
     "SMFG unpriced room %",
     "SMFG direction code (SHORT)",
-    "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)",
     "BHP Group unpriced room %",
     "BHP Group direction code (SHORT)",
     "Schwab U.S. TIPS ETF unpriced room %",
     "Schwab U.S. TIPS ETF direction code (LONG)",
     "Australian Dollar / US Dollar unpriced room %",
-    "Australian Dollar / US Dollar direction code (SHORT)"
+    "Australian Dollar / US Dollar direction code (SHORT)",
+    "US Dollar / Norwegian Krone unpriced room %",
+    "US Dollar / Norwegian Krone direction code (LONG)"
   ]
 }
