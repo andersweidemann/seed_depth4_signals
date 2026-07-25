@@ -32,6 +32,8 @@
     "FXI_DIR",
     "KIE_ROOM",
     "KIE_DIR",
+    "SB_ROOM",
+    "SB_DIR",
     "USDCAD_ROOM",
     "USDCAD_DIR",
     "EWM_ROOM",
@@ -62,19 +64,19 @@
     "DFEN_DIR",
     "WEAT_ROOM",
     "WEAT_DIR",
-    "USDNOK_ROOM",
-    "USDNOK_DIR",
     "BHP_ROOM",
     "BHP_DIR",
     "SCHP_ROOM",
     "SCHP_DIR",
     "AUDUSD_ROOM",
-    "AUDUSD_DIR"
+    "AUDUSD_DIR",
+    "USDNOK_ROOM",
+    "USDNOK_DIR"
   ],
   "pricescale": 100,
   "description": [
     "Bitcoin unpriced room %",
-    "Bitcoin direction code (MIXED)",
+    "Bitcoin direction code (LONG)",
     "Gold Spot unpriced room %",
     "Gold Spot direction code (MIXED)",
     "Silver Spot unpriced room %",
@@ -105,6 +107,8 @@
     "China large-cap direction code (SHORT)",
     "Insurance ETF unpriced room %",
     "Insurance ETF direction code (LONG)",
+    "Sugar unpriced room %",
+    "Sugar direction code (SHORT)",
     "US Dollar / Canadian Dollar unpriced room %",
     "US Dollar / Canadian Dollar direction code (SHORT)",
     "Malaysia stocks unpriced room %",
@@ -135,13 +139,13 @@
     "Defense & aerospace direction code (LONG)",
     "Teucrium Wheat Fund unpriced room %",
     "Teucrium Wheat Fund direction code (LONG)",
-    "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)",
     "BHP Group unpriced room %",
     "BHP Group direction code (SHORT)",
     "Schwab U.S. TIPS ETF unpriced room %",
     "Schwab U.S. TIPS ETF direction code (LONG)",
     "Australian Dollar / US Dollar unpriced room %",
-    "Australian Dollar / US Dollar direction code (SHORT)"
+    "Australian Dollar / US Dollar direction code (SHORT)",
+    "US Dollar / Norwegian Krone unpriced room %",
+    "US Dollar / Norwegian Krone direction code (LONG)"
   ]
 }
