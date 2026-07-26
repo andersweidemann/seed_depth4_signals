@@ -4,7 +4,7 @@ indicator("Macro Thesis Fleet: Direction & Cause Overlay", overlay=true, max_lab
 // Multi-thesis macro overlay: direction, room-to-run, fleet lean, and top cause one-liner.
 // Feed is embedded at publish time (static snapshot) — republish to refresh mapped symbols.
 
-// Generated: 2026-07-26T04:15:08.744Z
+// Generated: 2026-07-26T08:15:09.286Z
 // Entries: 38
 
 var string[] MACRO_TV_KEYS = array.from("BINANCE:BTCUSDT", "OANDA:XAUUSD", "OANDA:XAGUSD", "AMEX:SPY", "NASDAQ:QQQ", "AMEX:IWM", "AMEX:GLD", "COMEX:GC1!", "AMEX:XLE", "AMEX:GDX", "NASDAQ:TLT", "OANDA:EURUSD", "OANDA:USDJPY", "NYMEX:NG1!", "AMEX:FXI", "AMEX:KIE", "ICEUS:SB1!", "OANDA:USDCAD", "AMEX:EWM", "AMEX:UST", "AMEX:XLK", "NASDAQ:ASML", "AMEX:NUGT", "NYSE:VALE", "NYSE:SCCO", "NYSE:TECK", "AMEX:XLRE", "AMEX:XHB", "NYSE:CAT", "NYSE:FRO", "NASDAQ:CBO", "AMEX:DFEN", "NASDAQ:WEAT", "OANDA:USDNOK", "NYSE:BHP", "AMEX:SCHP", "OANDA:AUDUSD", "NASDAQ:SAVE")
