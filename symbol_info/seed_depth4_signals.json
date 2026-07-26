@@ -60,18 +60,22 @@
     "CAT_DIR",
     "FRO_ROOM",
     "FRO_DIR",
+    "CBO_ROOM",
+    "CBO_DIR",
     "DFEN_ROOM",
     "DFEN_DIR",
     "WEAT_ROOM",
     "WEAT_DIR",
+    "USDNOK_ROOM",
+    "USDNOK_DIR",
     "BHP_ROOM",
     "BHP_DIR",
     "SCHP_ROOM",
     "SCHP_DIR",
     "AUDUSD_ROOM",
     "AUDUSD_DIR",
-    "USDNOK_ROOM",
-    "USDNOK_DIR"
+    "SAVE_ROOM",
+    "SAVE_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -135,17 +139,21 @@
     "Caterpillar direction code (SHORT)",
     "Frontline unpriced room %",
     "Frontline direction code (LONG)",
+    "CBO unpriced room %",
+    "CBO direction code (LONG)",
     "Defense & aerospace unpriced room %",
     "Defense & aerospace direction code (LONG)",
     "Teucrium Wheat Fund unpriced room %",
     "Teucrium Wheat Fund direction code (LONG)",
+    "US Dollar / Norwegian Krone unpriced room %",
+    "US Dollar / Norwegian Krone direction code (LONG)",
     "BHP Group unpriced room %",
     "BHP Group direction code (SHORT)",
     "Schwab U.S. TIPS ETF unpriced room %",
     "Schwab U.S. TIPS ETF direction code (LONG)",
     "Australian Dollar / US Dollar unpriced room %",
     "Australian Dollar / US Dollar direction code (SHORT)",
-    "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)"
+    "SAVE unpriced room %",
+    "SAVE direction code (LONG)"
   ]
 }
