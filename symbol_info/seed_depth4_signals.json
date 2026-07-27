@@ -32,12 +32,8 @@
     "KIE_DIR",
     "SB_ROOM",
     "SB_DIR",
-    "BHP_ROOM",
-    "BHP_DIR",
-    "SCHP_ROOM",
-    "SCHP_DIR",
-    "AUDUSD_ROOM",
-    "AUDUSD_DIR"
+    "KOLD_ROOM",
+    "KOLD_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -73,11 +69,7 @@
     "Insurance ETF direction code (LONG)",
     "Sugar unpriced room %",
     "Sugar direction code (SHORT)",
-    "BHP Group unpriced room %",
-    "BHP Group direction code (SHORT)",
-    "Schwab U.S. TIPS ETF unpriced room %",
-    "Schwab U.S. TIPS ETF direction code (LONG)",
-    "Australian Dollar / US Dollar unpriced room %",
-    "Australian Dollar / US Dollar direction code (SHORT)"
+    "KOLD (UNG will rise as repeated European heat waves lock in structural summer ) unpriced room %",
+    "KOLD (UNG will rise as repeated European heat waves lock in structural summer ) direction code (SHORT)"
   ]
 }
