@@ -43,9 +43,7 @@
     "TECK_ROOM",
     "TECK_DIR",
     "XLRE_ROOM",
-    "XLRE_DIR",
-    "KOLD_ROOM",
-    "KOLD_DIR"
+    "XLRE_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -92,8 +90,6 @@
     "Teck Resources unpriced room %",
     "Teck Resources direction code (LONG)",
     "Real Estate sector unpriced room %",
-    "Real Estate sector direction code (SHORT)",
-    "UltraShort Natural Gas unpriced room %",
-    "UltraShort Natural Gas direction code (SHORT)"
+    "Real Estate sector direction code (SHORT)"
   ]
 }
