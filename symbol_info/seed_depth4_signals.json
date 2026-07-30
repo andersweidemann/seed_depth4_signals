@@ -36,6 +36,8 @@
     "KIE_DIR",
     "SB_ROOM",
     "SB_DIR",
+    "USDCAD_ROOM",
+    "USDCAD_DIR",
     "VALE_ROOM",
     "VALE_DIR",
     "SCCO_ROOM",
@@ -43,7 +45,13 @@
     "TECK_ROOM",
     "TECK_DIR",
     "XLRE_ROOM",
-    "XLRE_DIR"
+    "XLRE_DIR",
+    "BHP_ROOM",
+    "BHP_DIR",
+    "SCHP_ROOM",
+    "SCHP_DIR",
+    "AUDUSD_ROOM",
+    "AUDUSD_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -83,6 +91,8 @@
     "Insurance ETF direction code (LONG)",
     "Sugar unpriced room %",
     "Sugar direction code (SHORT)",
+    "US Dollar / Canadian Dollar unpriced room %",
+    "US Dollar / Canadian Dollar direction code (SHORT)",
     "Vale S.A. unpriced room %",
     "Vale S.A. direction code (LONG)",
     "Southern Copper unpriced room %",
@@ -90,6 +100,12 @@
     "Teck Resources unpriced room %",
     "Teck Resources direction code (LONG)",
     "Real Estate sector unpriced room %",
-    "Real Estate sector direction code (SHORT)"
+    "Real Estate sector direction code (SHORT)",
+    "BHP Group unpriced room %",
+    "BHP Group direction code (SHORT)",
+    "Schwab U.S. TIPS ETF unpriced room %",
+    "Schwab U.S. TIPS ETF direction code (LONG)",
+    "Australian Dollar / US Dollar unpriced room %",
+    "Australian Dollar / US Dollar direction code (SHORT)"
   ]
 }
