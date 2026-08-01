@@ -42,22 +42,10 @@
     "SOXX_DIR",
     "FXE_ROOM",
     "FXE_DIR",
-    "VALE_ROOM",
-    "VALE_DIR",
-    "SCCO_ROOM",
-    "SCCO_DIR",
-    "TECK_ROOM",
-    "TECK_DIR",
     "XLRE_ROOM",
     "XLRE_DIR",
     "XHB_ROOM",
-    "XHB_DIR",
-    "BHP_ROOM",
-    "BHP_DIR",
-    "SCHP_ROOM",
-    "SCHP_DIR",
-    "AUDUSD_ROOM",
-    "AUDUSD_DIR"
+    "XHB_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -103,21 +91,9 @@
     "Semiconductor Index direction code (LONG)",
     "Euro ETF unpriced room %",
     "Euro ETF direction code (SHORT)",
-    "Vale S.A. unpriced room %",
-    "Vale S.A. direction code (LONG)",
-    "Southern Copper unpriced room %",
-    "Southern Copper direction code (LONG)",
-    "Teck Resources unpriced room %",
-    "Teck Resources direction code (LONG)",
     "Real Estate sector unpriced room %",
     "Real Estate sector direction code (SHORT)",
     "SPDR S&P Homebuilders ETF unpriced room %",
-    "SPDR S&P Homebuilders ETF direction code (SHORT)",
-    "BHP Group unpriced room %",
-    "BHP Group direction code (SHORT)",
-    "Schwab U.S. TIPS ETF unpriced room %",
-    "Schwab U.S. TIPS ETF direction code (LONG)",
-    "Australian Dollar / US Dollar unpriced room %",
-    "Australian Dollar / US Dollar direction code (SHORT)"
+    "SPDR S&P Homebuilders ETF direction code (SHORT)"
   ]
 }
