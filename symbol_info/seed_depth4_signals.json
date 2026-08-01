@@ -39,13 +39,7 @@
     "SB_ROOM",
     "SB_DIR",
     "SOXX_ROOM",
-    "SOXX_DIR",
-    "FXE_ROOM",
-    "FXE_DIR",
-    "XLRE_ROOM",
-    "XLRE_DIR",
-    "XHB_ROOM",
-    "XHB_DIR"
+    "SOXX_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -88,12 +82,6 @@
     "Sugar unpriced room %",
     "Sugar direction code (SHORT)",
     "Semiconductor Index unpriced room %",
-    "Semiconductor Index direction code (LONG)",
-    "Euro ETF unpriced room %",
-    "Euro ETF direction code (SHORT)",
-    "Real Estate sector unpriced room %",
-    "Real Estate sector direction code (SHORT)",
-    "SPDR S&P Homebuilders ETF unpriced room %",
-    "SPDR S&P Homebuilders ETF direction code (SHORT)"
+    "Semiconductor Index direction code (LONG)"
   ]
 }
