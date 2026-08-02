@@ -37,9 +37,7 @@
     "KIE_ROOM",
     "KIE_DIR",
     "SB_ROOM",
-    "SB_DIR",
-    "SOXX_ROOM",
-    "SOXX_DIR"
+    "SB_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -80,8 +78,6 @@
     "Insurance ETF unpriced room %",
     "Insurance ETF direction code (LONG)",
     "Sugar unpriced room %",
-    "Sugar direction code (SHORT)",
-    "Semiconductor Index unpriced room %",
-    "Semiconductor Index direction code (LONG)"
+    "Sugar direction code (SHORT)"
   ]
 }
