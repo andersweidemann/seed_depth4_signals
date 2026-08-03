@@ -37,7 +37,9 @@
     "KIE_ROOM",
     "KIE_DIR",
     "SB_ROOM",
-    "SB_DIR"
+    "SB_DIR",
+    "USDCAD_ROOM",
+    "USDCAD_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -78,6 +80,8 @@
     "Insurance ETF unpriced room %",
     "Insurance ETF direction code (LONG)",
     "Sugar unpriced room %",
-    "Sugar direction code (SHORT)"
+    "Sugar direction code (SHORT)",
+    "US Dollar / Canadian Dollar unpriced room %",
+    "US Dollar / Canadian Dollar direction code (SHORT)"
   ]
 }
