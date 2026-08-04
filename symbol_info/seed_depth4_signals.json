@@ -30,6 +30,8 @@
     "NZDUSD_DIR",
     "NG_ROOM",
     "NG_DIR",
+    "EEM_ROOM",
+    "EEM_DIR",
     "USDCAD_ROOM",
     "USDCAD_DIR"
   ],
@@ -65,6 +67,8 @@
     "New Zealand Dollar / US Dollar direction code (SHORT)",
     "Natural Gas unpriced room %",
     "Natural Gas direction code (LONG)",
+    "Emerging Markets unpriced room %",
+    "Emerging Markets direction code (SHORT)",
     "US Dollar / Canadian Dollar unpriced room %",
     "US Dollar / Canadian Dollar direction code (SHORT)"
   ]
