@@ -34,8 +34,6 @@
     "KIE_DIR",
     "SB_ROOM",
     "SB_DIR",
-    "HYG_ROOM",
-    "HYG_DIR",
     "USDCAD_ROOM",
     "USDCAD_DIR"
   ],
@@ -75,8 +73,6 @@
     "Insurance ETF direction code (LONG)",
     "Sugar unpriced room %",
     "Sugar direction code (SHORT)",
-    "High yield bonds unpriced room %",
-    "High yield bonds direction code (SHORT)",
     "US Dollar / Canadian Dollar unpriced room %",
     "US Dollar / Canadian Dollar direction code (SHORT)"
   ]
