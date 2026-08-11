@@ -44,6 +44,8 @@
     "USDCAD_DIR",
     "ITA_ROOM",
     "ITA_DIR",
+    "NUGT_ROOM",
+    "NUGT_DIR",
     "USDNOK_ROOM",
     "USDNOK_DIR"
   ],
@@ -52,7 +54,7 @@
     "Bitcoin unpriced room %",
     "Bitcoin direction code (LONG)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (MIXED)",
+    "Gold Spot direction code (LONG)",
     "Silver Spot unpriced room %",
     "Silver Spot direction code (SHORT)",
     "S&P 500 unpriced room %",
@@ -62,9 +64,9 @@
     "Russell 2000 unpriced room %",
     "Russell 2000 direction code (SHORT)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (MIXED)",
+    "Gold Spot direction code (LONG)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (MIXED)",
+    "Gold Spot direction code (LONG)",
     "Energy Select Sector unpriced room %",
     "Energy Select Sector direction code (LONG)",
     "Gold Miners ETF unpriced room %",
@@ -93,6 +95,8 @@
     "US Dollar / Canadian Dollar direction code (SHORT)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
+    "Direxion Gold Miners Bull 2X unpriced room %",
+    "Direxion Gold Miners Bull 2X direction code (SHORT)",
     "US Dollar / Norwegian Krone unpriced room %",
     "US Dollar / Norwegian Krone direction code (LONG)"
   ]
