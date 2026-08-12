@@ -40,16 +40,12 @@
     "RTX_DIR",
     "HYG_ROOM",
     "HYG_DIR",
-    "USDCAD_ROOM",
-    "USDCAD_DIR",
     "ITA_ROOM",
     "ITA_DIR",
     "HSBC_ROOM",
     "HSBC_DIR",
     "NUGT_ROOM",
-    "NUGT_DIR",
-    "USDNOK_ROOM",
-    "USDNOK_DIR"
+    "NUGT_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -93,15 +89,11 @@
     "Raytheon direction code (LONG)",
     "High yield bonds unpriced room %",
     "High yield bonds direction code (SHORT)",
-    "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
     "HSBC unpriced room %",
     "HSBC direction code (SHORT)",
     "Direxion Gold Miners Bull 2X unpriced room %",
-    "Direxion Gold Miners Bull 2X direction code (SHORT)",
-    "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)"
+    "Direxion Gold Miners Bull 2X direction code (SHORT)"
   ]
 }
