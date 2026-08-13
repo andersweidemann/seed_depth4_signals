@@ -47,7 +47,9 @@
     "HSBC_ROOM",
     "HSBC_DIR",
     "NUGT_ROOM",
-    "NUGT_DIR"
+    "NUGT_DIR",
+    "XHB_ROOM",
+    "XHB_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -98,6 +100,8 @@
     "HSBC unpriced room %",
     "HSBC direction code (SHORT)",
     "Direxion Gold Miners Bull 2X unpriced room %",
-    "Direxion Gold Miners Bull 2X direction code (SHORT)"
+    "Direxion Gold Miners Bull 2X direction code (SHORT)",
+    "SPDR S&P Homebuilders ETF unpriced room %",
+    "SPDR S&P Homebuilders ETF direction code (SHORT)"
   ]
 }
