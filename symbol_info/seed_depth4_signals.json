@@ -36,10 +36,10 @@
     "RTX_DIR",
     "ITA_ROOM",
     "ITA_DIR",
-    "HSBC_ROOM",
-    "HSBC_DIR",
     "XHB_ROOM",
     "XHB_DIR",
+    "XLK_ROOM",
+    "XLK_DIR",
     "TIP_ROOM",
     "TIP_DIR"
   ],
@@ -81,10 +81,10 @@
     "Raytheon direction code (LONG)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
-    "HSBC unpriced room %",
-    "HSBC direction code (SHORT)",
     "SPDR S&P Homebuilders ETF unpriced room %",
     "SPDR S&P Homebuilders ETF direction code (SHORT)",
+    "Technology sector unpriced room %",
+    "Technology sector direction code (LONG)",
     "TIPS unpriced room %",
     "TIPS direction code (SHORT)"
   ]
