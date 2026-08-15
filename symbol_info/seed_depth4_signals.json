@@ -26,18 +26,12 @@
     "EURUSD_DIR",
     "USDJPY_ROOM",
     "USDJPY_DIR",
-    "NG_ROOM",
-    "NG_DIR",
     "KIE_ROOM",
     "KIE_DIR",
-    "RTX_ROOM",
-    "RTX_DIR",
     "ITA_ROOM",
     "ITA_DIR",
     "XLK_ROOM",
-    "XLK_DIR",
-    "TIP_ROOM",
-    "TIP_DIR"
+    "XLK_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -67,17 +61,11 @@
     "Euro / US Dollar direction code (SHORT)",
     "US Dollar / Japanese Yen unpriced room %",
     "US Dollar / Japanese Yen direction code (MIXED)",
-    "Natural Gas unpriced room %",
-    "Natural Gas direction code (LONG)",
     "Insurance ETF unpriced room %",
     "Insurance ETF direction code (LONG)",
-    "Raytheon unpriced room %",
-    "Raytheon direction code (LONG)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
     "Technology sector unpriced room %",
-    "Technology sector direction code (LONG)",
-    "TIPS unpriced room %",
-    "TIPS direction code (SHORT)"
+    "Technology sector direction code (LONG)"
   ]
 }
