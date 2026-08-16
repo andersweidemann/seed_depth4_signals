@@ -28,10 +28,10 @@
     "USDJPY_DIR",
     "KIE_ROOM",
     "KIE_DIR",
+    "RTX_ROOM",
+    "RTX_DIR",
     "ITA_ROOM",
-    "ITA_DIR",
-    "XLK_ROOM",
-    "XLK_DIR"
+    "ITA_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -63,9 +63,9 @@
     "US Dollar / Japanese Yen direction code (MIXED)",
     "Insurance ETF unpriced room %",
     "Insurance ETF direction code (LONG)",
+    "Raytheon unpriced room %",
+    "Raytheon direction code (LONG)",
     "Aerospace & Defense unpriced room %",
-    "Aerospace & Defense direction code (LONG)",
-    "Technology sector unpriced room %",
-    "Technology sector direction code (LONG)"
+    "Aerospace & Defense direction code (LONG)"
   ]
 }
