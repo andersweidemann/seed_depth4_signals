@@ -36,8 +36,6 @@
     "RTX_DIR",
     "ITA_ROOM",
     "ITA_DIR",
-    "USDCAD_ROOM",
-    "USDCAD_DIR",
     "UST_ROOM",
     "UST_DIR"
   ],
@@ -79,8 +77,6 @@
     "Raytheon direction code (LONG)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
-    "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)",
     "Ultra 7–10Y Treasury ETF unpriced room %",
     "Ultra 7–10Y Treasury ETF direction code (SHORT)"
   ]
