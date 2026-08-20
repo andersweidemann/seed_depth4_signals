@@ -6,6 +6,10 @@
     "XAUUSD_DIR",
     "XAGUSD_ROOM",
     "XAGUSD_DIR",
+    "NVDA_ROOM",
+    "NVDA_DIR",
+    "GOOGL_ROOM",
+    "GOOGL_DIR",
     "SPY_ROOM",
     "SPY_DIR",
     "QQQ_ROOM",
@@ -41,9 +45,7 @@
     "SB_ROOM",
     "SB_DIR",
     "USDCAD_ROOM",
-    "USDCAD_DIR",
-    "UST_ROOM",
-    "UST_DIR"
+    "USDCAD_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -53,6 +55,10 @@
     "Gold Spot direction code (LONG)",
     "Silver Spot unpriced room %",
     "Silver Spot direction code (SHORT)",
+    "Nvidia unpriced room %",
+    "Nvidia direction code (SHORT)",
+    "Alphabet unpriced room %",
+    "Alphabet direction code (LONG)",
     "S&P 500 unpriced room %",
     "S&P 500 direction code (MIXED)",
     "Nasdaq 100 unpriced room %",
@@ -88,8 +94,6 @@
     "Sugar unpriced room %",
     "Sugar direction code (SHORT)",
     "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)",
-    "Ultra 7–10Y Treasury ETF unpriced room %",
-    "Ultra 7–10Y Treasury ETF direction code (SHORT)"
+    "US Dollar / Canadian Dollar direction code (SHORT)"
   ]
 }
