@@ -45,20 +45,18 @@
     "ITA_ROOM",
     "ITA_DIR",
     "USDCAD_ROOM",
-    "USDCAD_DIR",
-    "FRO_ROOM",
-    "FRO_DIR"
+    "USDCAD_DIR"
   ],
   "pricescale": 100,
   "description": [
     "Bitcoin unpriced room %",
     "Bitcoin direction code (LONG)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (MIXED)",
+    "Gold Spot direction code (LONG)",
     "Silver Spot unpriced room %",
     "Silver Spot direction code (SHORT)",
     "Nvidia unpriced room %",
-    "Nvidia direction code (SHORT)",
+    "Nvidia direction code (MIXED)",
     "Apple unpriced room %",
     "Apple direction code (SHORT)",
     "Alphabet unpriced room %",
@@ -70,9 +68,9 @@
     "Russell 2000 unpriced room %",
     "Russell 2000 direction code (SHORT)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (MIXED)",
+    "Gold Spot direction code (LONG)",
     "Gold Spot unpriced room %",
-    "Gold Spot direction code (MIXED)",
+    "Gold Spot direction code (LONG)",
     "Energy Select Sector unpriced room %",
     "Energy Select Sector direction code (MIXED)",
     "Gold Miners ETF unpriced room %",
@@ -82,7 +80,7 @@
     "Euro / US Dollar unpriced room %",
     "Euro / US Dollar direction code (SHORT)",
     "US Dollar / Japanese Yen unpriced room %",
-    "US Dollar / Japanese Yen direction code (SHORT)",
+    "US Dollar / Japanese Yen direction code (MIXED)",
     "New Zealand Dollar / US Dollar unpriced room %",
     "New Zealand Dollar / US Dollar direction code (SHORT)",
     "Insurance ETF unpriced room %",
@@ -96,8 +94,6 @@
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
     "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)",
-    "Frontline unpriced room %",
-    "Frontline direction code (LONG)"
+    "US Dollar / Canadian Dollar direction code (SHORT)"
   ]
 }
