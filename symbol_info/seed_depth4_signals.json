@@ -34,16 +34,8 @@
     "USDJPY_DIR",
     "NZDUSD_ROOM",
     "NZDUSD_DIR",
-    "NG_ROOM",
-    "NG_DIR",
-    "RTX_ROOM",
-    "RTX_DIR",
     "XLY_ROOM",
-    "XLY_DIR",
-    "ITA_ROOM",
-    "ITA_DIR",
-    "USDCAD_ROOM",
-    "USDCAD_DIR"
+    "XLY_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -81,15 +73,7 @@
     "US Dollar / Japanese Yen direction code (SHORT)",
     "New Zealand Dollar / US Dollar unpriced room %",
     "New Zealand Dollar / US Dollar direction code (SHORT)",
-    "Natural Gas unpriced room %",
-    "Natural Gas direction code (LONG)",
-    "Raytheon unpriced room %",
-    "Raytheon direction code (LONG)",
     "Consumer Discretionary sector unpriced room %",
-    "Consumer Discretionary sector direction code (SHORT)",
-    "Aerospace & Defense unpriced room %",
-    "Aerospace & Defense direction code (LONG)",
-    "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)"
+    "Consumer Discretionary sector direction code (SHORT)"
   ]
 }
