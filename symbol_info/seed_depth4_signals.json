@@ -40,10 +40,10 @@
     "USDCNH_DIR",
     "GBPJPY_ROOM",
     "GBPJPY_DIR",
-    "BDRY_ROOM",
-    "BDRY_DIR",
     "ZW_ROOM",
     "ZW_DIR",
+    "BDRY_ROOM",
+    "BDRY_DIR",
     "CT_ROOM",
     "CT_DIR",
     "HYG_ROOM",
@@ -72,10 +72,10 @@
     "EEM_DIR",
     "PA_ROOM",
     "PA_DIR",
-    "USDNOK_ROOM",
-    "USDNOK_DIR",
     "TIP_ROOM",
-    "TIP_DIR"
+    "TIP_DIR",
+    "USDNOK_ROOM",
+    "USDNOK_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -119,10 +119,10 @@
     "US Dollar / Offshore Yuan direction code (LONG)",
     "British Pound / Japanese Yen unpriced room %",
     "British Pound / Japanese Yen direction code (SHORT)",
-    "Dry bulk shipping unpriced room %",
-    "Dry bulk shipping direction code (LONG)",
     "Wheat unpriced room %",
     "Wheat direction code (LONG)",
+    "Dry bulk shipping unpriced room %",
+    "Dry bulk shipping direction code (LONG)",
     "Cotton unpriced room %",
     "Cotton direction code (SHORT)",
     "High yield bonds unpriced room %",
@@ -151,9 +151,9 @@
     "Emerging Markets direction code (SHORT)",
     "Palladium unpriced room %",
     "Palladium direction code (SHORT)",
-    "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)",
     "TIPS unpriced room %",
-    "TIPS direction code (SHORT)"
+    "TIPS direction code (SHORT)",
+    "US Dollar / Norwegian Krone unpriced room %",
+    "US Dollar / Norwegian Krone direction code (LONG)"
   ]
 }
