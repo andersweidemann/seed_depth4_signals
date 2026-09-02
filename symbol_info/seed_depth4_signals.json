@@ -64,6 +64,8 @@
     "TECK_DIR",
     "NUGT_ROOM",
     "NUGT_DIR",
+    "STNG_ROOM",
+    "STNG_DIR",
     "HAL_ROOM",
     "HAL_DIR",
     "CVX_ROOM",
@@ -77,7 +79,9 @@
     "PA_ROOM",
     "PA_DIR",
     "TIP_ROOM",
-    "TIP_DIR"
+    "TIP_DIR",
+    "USDNOK_ROOM",
+    "USDNOK_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -145,6 +149,8 @@
     "Teck Resources direction code (LONG)",
     "Direxion Gold Miners Bull 2X unpriced room %",
     "Direxion Gold Miners Bull 2X direction code (SHORT)",
+    "Scorpio Tankers unpriced room %",
+    "Scorpio Tankers direction code (LONG)",
     "Halliburton unpriced room %",
     "Halliburton direction code (SHORT)",
     "Chevron unpriced room %",
@@ -158,6 +164,8 @@
     "Palladium unpriced room %",
     "Palladium direction code (SHORT)",
     "TIPS unpriced room %",
-    "TIPS direction code (SHORT)"
+    "TIPS direction code (SHORT)",
+    "US Dollar / Norwegian Krone unpriced room %",
+    "US Dollar / Norwegian Krone direction code (LONG)"
   ]
 }
