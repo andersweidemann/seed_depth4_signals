@@ -79,9 +79,7 @@
     "PA_ROOM",
     "PA_DIR",
     "TIP_ROOM",
-    "TIP_DIR",
-    "USDNOK_ROOM",
-    "USDNOK_DIR"
+    "TIP_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -164,8 +162,6 @@
     "Palladium unpriced room %",
     "Palladium direction code (SHORT)",
     "TIPS unpriced room %",
-    "TIPS direction code (SHORT)",
-    "US Dollar / Norwegian Krone unpriced room %",
-    "US Dollar / Norwegian Krone direction code (LONG)"
+    "TIPS direction code (SHORT)"
   ]
 }
