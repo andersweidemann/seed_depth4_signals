@@ -70,12 +70,12 @@
     "TSM_DIR",
     "USDMXN_ROOM",
     "USDMXN_DIR",
+    "EEM_ROOM",
+    "EEM_DIR",
     "PA_ROOM",
     "PA_DIR",
     "TIP_ROOM",
-    "TIP_DIR",
-    "EEM_ROOM",
-    "EEM_DIR"
+    "TIP_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -149,11 +149,11 @@
     "Taiwan Semiconductor direction code (SHORT)",
     "US Dollar / Mexican Peso unpriced room %",
     "US Dollar / Mexican Peso direction code (LONG)",
+    "Emerging Markets unpriced room %",
+    "Emerging Markets direction code (SHORT)",
     "Palladium unpriced room %",
     "Palladium direction code (SHORT)",
     "TIPS unpriced room %",
-    "TIPS direction code (SHORT)",
-    "Emerging Markets unpriced room %",
-    "Emerging Markets direction code (SHORT)"
+    "TIPS direction code (SHORT)"
   ]
 }
