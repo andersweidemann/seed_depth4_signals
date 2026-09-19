@@ -54,8 +54,6 @@
     "BZ_DIR",
     "USDCHF_ROOM",
     "USDCHF_DIR",
-    "CVX_ROOM",
-    "CVX_DIR",
     "XLK_ROOM",
     "XLK_DIR",
     "KIE_ROOM",
@@ -66,10 +64,12 @@
     "FCX_DIR",
     "NOC_ROOM",
     "NOC_DIR",
+    "KRE_ROOM",
+    "KRE_DIR",
     "USDCAD_ROOM",
     "USDCAD_DIR",
-    "KRE_ROOM",
-    "KRE_DIR"
+    "NTR_ROOM",
+    "NTR_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -127,8 +127,6 @@
     "Brent Crude Oil direction code (LONG)",
     "US Dollar / Swiss Franc unpriced room %",
     "US Dollar / Swiss Franc direction code (SHORT)",
-    "Chevron unpriced room %",
-    "Chevron direction code (SHORT)",
     "Technology sector unpriced room %",
     "Technology sector direction code (LONG)",
     "Insurance ETF unpriced room %",
@@ -139,9 +137,11 @@
     "Freeport-McMoRan direction code (LONG)",
     "Northrop Grumman unpriced room %",
     "Northrop Grumman direction code (LONG)",
+    "Regional banks ETF unpriced room %",
+    "Regional banks ETF direction code (SHORT)",
     "US Dollar / Canadian Dollar unpriced room %",
     "US Dollar / Canadian Dollar direction code (SHORT)",
-    "Regional banks ETF unpriced room %",
-    "Regional banks ETF direction code (SHORT)"
+    "Nutrien unpriced room %",
+    "Nutrien direction code (LONG)"
   ]
 }
