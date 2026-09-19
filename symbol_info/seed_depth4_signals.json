@@ -62,14 +62,14 @@
     "ASML_DIR",
     "FCX_ROOM",
     "FCX_DIR",
-    "NOC_ROOM",
-    "NOC_DIR",
     "NTR_ROOM",
     "NTR_DIR",
+    "USDCAD_ROOM",
+    "USDCAD_DIR",
     "KRE_ROOM",
     "KRE_DIR",
-    "USDCAD_ROOM",
-    "USDCAD_DIR"
+    "NOC_ROOM",
+    "NOC_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -135,13 +135,13 @@
     "ASML Holding direction code (LONG)",
     "Freeport-McMoRan unpriced room %",
     "Freeport-McMoRan direction code (LONG)",
-    "Northrop Grumman unpriced room %",
-    "Northrop Grumman direction code (LONG)",
     "Nutrien unpriced room %",
     "Nutrien direction code (LONG)",
+    "US Dollar / Canadian Dollar unpriced room %",
+    "US Dollar / Canadian Dollar direction code (SHORT)",
     "Regional banks ETF unpriced room %",
     "Regional banks ETF direction code (SHORT)",
-    "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)"
+    "Northrop Grumman unpriced room %",
+    "Northrop Grumman direction code (LONG)"
   ]
 }
