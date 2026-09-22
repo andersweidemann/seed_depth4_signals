@@ -54,10 +54,10 @@
     "LQD_DIR",
     "USDCAD_ROOM",
     "USDCAD_DIR",
-    "KRE_ROOM",
-    "KRE_DIR",
     "NOC_ROOM",
-    "NOC_DIR"
+    "NOC_DIR",
+    "EEM_ROOM",
+    "EEM_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -115,9 +115,9 @@
     "Investment Grade Corporate Bonds direction code (SHORT)",
     "US Dollar / Canadian Dollar unpriced room %",
     "US Dollar / Canadian Dollar direction code (SHORT)",
-    "Regional banks ETF unpriced room %",
-    "Regional banks ETF direction code (SHORT)",
     "Northrop Grumman unpriced room %",
-    "Northrop Grumman direction code (LONG)"
+    "Northrop Grumman direction code (LONG)",
+    "Emerging Markets unpriced room %",
+    "Emerging Markets direction code (SHORT)"
   ]
 }
