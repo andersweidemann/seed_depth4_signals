@@ -42,8 +42,6 @@
     "NG_DIR",
     "RTX_ROOM",
     "RTX_DIR",
-    "BZ_ROOM",
-    "BZ_DIR",
     "ITA_ROOM",
     "ITA_DIR",
     "UNG_ROOM",
@@ -57,9 +55,7 @@
     "USDCAD_ROOM",
     "USDCAD_DIR",
     "NOC_ROOM",
-    "NOC_DIR",
-    "EEM_ROOM",
-    "EEM_DIR"
+    "NOC_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -105,8 +101,6 @@
     "Natural Gas direction code (LONG)",
     "Raytheon unpriced room %",
     "Raytheon direction code (LONG)",
-    "Brent Crude Oil unpriced room %",
-    "Brent Crude Oil direction code (LONG)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
     "United States Natural Gas Fund unpriced room %",
@@ -120,8 +114,6 @@
     "US Dollar / Canadian Dollar unpriced room %",
     "US Dollar / Canadian Dollar direction code (SHORT)",
     "Northrop Grumman unpriced room %",
-    "Northrop Grumman direction code (LONG)",
-    "Emerging Markets unpriced room %",
-    "Emerging Markets direction code (SHORT)"
+    "Northrop Grumman direction code (LONG)"
   ]
 }
