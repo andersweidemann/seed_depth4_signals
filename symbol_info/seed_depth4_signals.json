@@ -54,8 +54,6 @@
     "KRE_DIR",
     "LQD_ROOM",
     "LQD_DIR",
-    "USDCAD_ROOM",
-    "USDCAD_DIR",
     "NOC_ROOM",
     "NOC_DIR"
   ],
@@ -115,8 +113,6 @@
     "Regional banks ETF direction code (SHORT)",
     "Investment Grade Corporate Bonds unpriced room %",
     "Investment Grade Corporate Bonds direction code (SHORT)",
-    "US Dollar / Canadian Dollar unpriced room %",
-    "US Dollar / Canadian Dollar direction code (SHORT)",
     "Northrop Grumman unpriced room %",
     "Northrop Grumman direction code (LONG)"
   ]
