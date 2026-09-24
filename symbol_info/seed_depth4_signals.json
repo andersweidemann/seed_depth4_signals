@@ -50,12 +50,14 @@
     "USDCHF_DIR",
     "KIE_ROOM",
     "KIE_DIR",
-    "KRE_ROOM",
-    "KRE_DIR",
     "LQD_ROOM",
     "LQD_DIR",
+    "KRE_ROOM",
+    "KRE_DIR",
     "NOC_ROOM",
-    "NOC_DIR"
+    "NOC_DIR",
+    "EEM_ROOM",
+    "EEM_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -109,11 +111,13 @@
     "US Dollar / Swiss Franc direction code (SHORT)",
     "Insurance ETF unpriced room %",
     "Insurance ETF direction code (LONG)",
-    "Regional banks ETF unpriced room %",
-    "Regional banks ETF direction code (SHORT)",
     "Investment Grade Corporate Bonds unpriced room %",
     "Investment Grade Corporate Bonds direction code (SHORT)",
+    "Regional banks ETF unpriced room %",
+    "Regional banks ETF direction code (SHORT)",
     "Northrop Grumman unpriced room %",
-    "Northrop Grumman direction code (LONG)"
+    "Northrop Grumman direction code (LONG)",
+    "Emerging Markets unpriced room %",
+    "Emerging Markets direction code (SHORT)"
   ]
 }
