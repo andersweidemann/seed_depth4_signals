@@ -52,10 +52,10 @@
     "PSX_DIR",
     "VLO_ROOM",
     "VLO_DIR",
-    "KRE_ROOM",
-    "KRE_DIR",
     "LQD_ROOM",
-    "LQD_DIR"
+    "LQD_DIR",
+    "KRE_ROOM",
+    "KRE_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -111,9 +111,9 @@
     "Phillips 66 direction code (LONG)",
     "Valero Energy unpriced room %",
     "Valero Energy direction code (LONG)",
-    "Regional banks ETF unpriced room %",
-    "Regional banks ETF direction code (SHORT)",
     "Investment Grade Corporate Bonds unpriced room %",
-    "Investment Grade Corporate Bonds direction code (SHORT)"
+    "Investment Grade Corporate Bonds direction code (SHORT)",
+    "Regional banks ETF unpriced room %",
+    "Regional banks ETF direction code (SHORT)"
   ]
 }
