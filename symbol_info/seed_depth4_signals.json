@@ -42,8 +42,6 @@
     "LMT_DIR",
     "RTX_ROOM",
     "RTX_DIR",
-    "USO_ROOM",
-    "USO_DIR",
     "ITA_ROOM",
     "ITA_DIR",
     "PL_ROOM",
@@ -56,12 +54,14 @@
     "XLK_DIR",
     "KIE_ROOM",
     "KIE_DIR",
+    "PSX_ROOM",
+    "PSX_DIR",
+    "VLO_ROOM",
+    "VLO_DIR",
     "LQD_ROOM",
     "LQD_DIR",
     "KRE_ROOM",
-    "KRE_DIR",
-    "EEM_ROOM",
-    "EEM_DIR"
+    "KRE_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -107,8 +107,6 @@
     "Lockheed Martin direction code (LONG)",
     "Raytheon unpriced room %",
     "Raytheon direction code (LONG)",
-    "United States Oil Fund unpriced room %",
-    "United States Oil Fund direction code (LONG)",
     "Aerospace & Defense unpriced room %",
     "Aerospace & Defense direction code (LONG)",
     "Platinum unpriced room %",
@@ -121,11 +119,13 @@
     "Technology sector direction code (LONG)",
     "Insurance ETF unpriced room %",
     "Insurance ETF direction code (LONG)",
+    "Phillips 66 unpriced room %",
+    "Phillips 66 direction code (LONG)",
+    "Valero Energy unpriced room %",
+    "Valero Energy direction code (LONG)",
     "Investment Grade Corporate Bonds unpriced room %",
     "Investment Grade Corporate Bonds direction code (SHORT)",
     "Regional banks ETF unpriced room %",
-    "Regional banks ETF direction code (SHORT)",
-    "Emerging Markets unpriced room %",
-    "Emerging Markets direction code (SHORT)"
+    "Regional banks ETF direction code (SHORT)"
   ]
 }
