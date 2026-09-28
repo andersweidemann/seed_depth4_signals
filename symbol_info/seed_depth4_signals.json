@@ -55,7 +55,9 @@
     "LQD_ROOM",
     "LQD_DIR",
     "KRE_ROOM",
-    "KRE_DIR"
+    "KRE_DIR",
+    "XLC_ROOM",
+    "XLC_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -76,7 +78,7 @@
     "Alphabet unpriced room %",
     "Alphabet direction code (LONG)",
     "S&P 500 unpriced room %",
-    "S&P 500 direction code (MIXED)",
+    "S&P 500 direction code (LONG)",
     "Nasdaq 100 unpriced room %",
     "Nasdaq 100 direction code (MIXED)",
     "Russell 2000 unpriced room %",
@@ -114,6 +116,8 @@
     "Investment Grade Corporate Bonds unpriced room %",
     "Investment Grade Corporate Bonds direction code (SHORT)",
     "Regional banks ETF unpriced room %",
-    "Regional banks ETF direction code (SHORT)"
+    "Regional banks ETF direction code (SHORT)",
+    "Communication Services sector unpriced room %",
+    "Communication Services sector direction code (LONG)"
   ]
 }
