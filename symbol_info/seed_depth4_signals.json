@@ -36,6 +36,8 @@
     "EURUSD_DIR",
     "USDJPY_ROOM",
     "USDJPY_DIR",
+    "NZDUSD_ROOM",
+    "NZDUSD_DIR",
     "RTX_ROOM",
     "RTX_DIR",
     "ITA_ROOM",
@@ -55,7 +57,9 @@
     "LQD_ROOM",
     "LQD_DIR",
     "KRE_ROOM",
-    "KRE_DIR"
+    "KRE_DIR",
+    "EEM_ROOM",
+    "EEM_DIR"
   ],
   "pricescale": 100,
   "description": [
@@ -95,6 +99,8 @@
     "Euro / US Dollar direction code (SHORT)",
     "US Dollar / Japanese Yen unpriced room %",
     "US Dollar / Japanese Yen direction code (MIXED)",
+    "New Zealand Dollar / US Dollar unpriced room %",
+    "New Zealand Dollar / US Dollar direction code (SHORT)",
     "Raytheon unpriced room %",
     "Raytheon direction code (LONG)",
     "Aerospace & Defense unpriced room %",
@@ -114,6 +120,8 @@
     "Investment Grade Corporate Bonds unpriced room %",
     "Investment Grade Corporate Bonds direction code (SHORT)",
     "Regional banks ETF unpriced room %",
-    "Regional banks ETF direction code (SHORT)"
+    "Regional banks ETF direction code (SHORT)",
+    "Emerging Markets unpriced room %",
+    "Emerging Markets direction code (SHORT)"
   ]
 }
