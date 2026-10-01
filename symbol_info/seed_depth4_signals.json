@@ -42,10 +42,6 @@
     "PSX_DIR",
     "VLO_ROOM",
     "VLO_DIR",
-    "LQD_ROOM",
-    "LQD_DIR",
-    "KRE_ROOM",
-    "KRE_DIR",
     "EEM_ROOM",
     "EEM_DIR"
   ],
@@ -93,10 +89,6 @@
     "Phillips 66 direction code (LONG)",
     "Valero Energy unpriced room %",
     "Valero Energy direction code (LONG)",
-    "Investment Grade Corporate Bonds unpriced room %",
-    "Investment Grade Corporate Bonds direction code (SHORT)",
-    "Regional banks ETF unpriced room %",
-    "Regional banks ETF direction code (SHORT)",
     "Emerging Markets unpriced room %",
     "Emerging Markets direction code (SHORT)"
   ]
